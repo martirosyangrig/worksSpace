@@ -1,5 +1,5 @@
 {
-  "name": "websitebe",
+  "name": "workspace",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,7 +10,7 @@
     "typeorm": "typeorm-ts-node-commonjs",
     "migration": "npm run typeorm migration:run -- -d ./src/config/db.ts",
     "migration:generate": "npm run typeorm migration:generate -- -d ./src/config/db.ts",
-    "migration:revert": "npm run typeorm migration:revert -- -d ./src/config/postgres.ts"
+    "migration:revert": "npm run typeorm migration:revert -- -d ./src/config/db.ts"
   },
   "keywords": [],
   "author": "",
